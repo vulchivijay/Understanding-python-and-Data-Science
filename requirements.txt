@@ -1,0 +1,16 @@
+# Create local VM setup to install libraries.
+# 1. Create virtual environment or folder to install required libraries
+# python -m venv <foldername> i.e python -m venv Venv
+# Activate virtual environment goto cmd and type <foldername>\Scripts\Activate.bat
+# Activated (jupyternotebook) <your root folder> ex. demo
+# Then you can install required libraries
+
+# pip install -r requirements.txt
+# To run jupyternotebook goto cmd type "jupyter notebook" // it will open jupyter notebook in browser
+pandas
+jupyter
+numpy
+matplotlib
+seaborn
+check_output
+os
